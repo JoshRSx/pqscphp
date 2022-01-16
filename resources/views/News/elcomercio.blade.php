@@ -54,10 +54,14 @@ $link_fin_fg1 = "00000000001001&ticket=&scale=52&layer=fg";
          
                   //Pages
                   $data = file_get_contents($archivo."1");
-                  $base64_1 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                  $base64_1 = 'data:image/' . $type . ';base64,' . base64_encode($data);
+                  
+                  try{
                   $data = file_get_contents($archivo."2");
                   $base64_2 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
-
+                  catch(Exception $e){
+    //
+}
                   try{
                   $data = file_get_contents($archivo."3");
                   $base64_3 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
