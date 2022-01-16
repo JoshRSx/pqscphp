@@ -70,71 +70,181 @@ $link_fin_fg1 = "00000000001001&ticket=&scale=52&layer=fg";
                   catch(Exception $e){
     //
 }
-          
+          try{
                   $data = file_get_contents($archivo."4");
                   $base64_4 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."5");
                   $base64_5 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
-
+                }
+                  catch(Exception $e){
+    //
+}
                   try{
                   $data = file_get_contents($archivo."6");
                   $base64_6 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
                   }
                   catch(Exception $e){
     //
-}
+}try{
                   $data = file_get_contents($archivo."7");
                   $base64_7 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."8");
                   $base64_8 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."9");
                   $base64_9 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."10");
                   $base64_10 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."11");
                   $base64_11 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}
+try{
                   $data = file_get_contents($archivo."12");
                   $base64_12 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."13");
                   $base64_13 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."14");
                   $base64_14 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."15");
                   $base64_15 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."16");
                   $base64_16 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."17");
                   $base64_17 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."18");
                   $base64_18 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."19");
                   $base64_19 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
-                  $data = file_get_contents($archivo."20");
+                }
+                  catch(Exception $e){
+    //
+}try{                  $data = file_get_contents($archivo."20");
                   $base64_20 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."21");
                   $base64_21 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."22");
                   $base64_22 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."23");
                   $base64_23 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."24");
                   $base64_24 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
-                  $data = file_get_contents($archivo."25");
+                }
+                  catch(Exception $e){
+    //
+}try{                  $data = file_get_contents($archivo."25");
                   $base64_25 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."26");
                   $base64_26 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."27");
                   $base64_27 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."28");
                   $base64_28 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."29");
                   $base64_29 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."30");
                   $base64_30 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."31");
                   $base64_31 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}try{
                   $data = file_get_contents($archivo."32");
                   $base64_32 = 'data:image/' . $type . ';base64,' . base64_encode($data); 
+                }
+                  catch(Exception $e){
+    //
+}
 
                   try{
                   $data = file_get_contents($archivo."33");
